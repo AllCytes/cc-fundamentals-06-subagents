@@ -2,10 +2,6 @@
 description: Generates clear documentation from code
 model: sonnet
 allowed-tools: Read, Glob, Write
-hooks:
-  post_tool_use:
-    - matcher: Write
-      command: echo "Docs written"
 ---
 
 # Documentation Generator Agent

@@ -2,10 +2,6 @@
 description: Runs tests and provides clear summary of results
 model: haiku
 allowed-tools: Bash, Read, Glob
-hooks:
-  post_tool_use:
-    - matcher: Bash
-      command: echo "Test executed"
 ---
 
 # Test Runner Agent

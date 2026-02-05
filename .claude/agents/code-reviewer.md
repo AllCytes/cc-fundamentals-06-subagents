@@ -2,10 +2,6 @@
 description: Reviews code with clear, beginner-friendly feedback
 model: sonnet
 allowed-tools: Read, Glob, Grep
-hooks:
-  post_tool_use:
-    - matcher: Read
-      command: echo "Reviewed file"
 ---
 
 # Code Reviewer Agent
