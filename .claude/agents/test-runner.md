@@ -1,4 +1,5 @@
 ---
+name: test-runner
 description: Runs tests and provides clear summary of results
 model: haiku
 allowed-tools: Bash, Read, Glob

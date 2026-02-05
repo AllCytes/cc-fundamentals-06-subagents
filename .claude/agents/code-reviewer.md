@@ -1,4 +1,5 @@
 ---
+name: code-reviewer
 description: Reviews code with clear, beginner-friendly feedback
 model: sonnet
 allowed-tools: Read, Glob, Grep

@@ -1,4 +1,5 @@
 ---
+name: doc-generator
 description: Generates clear documentation from code
 model: sonnet
 allowed-tools: Read, Glob, Write
